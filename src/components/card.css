@@ -1,0 +1,15 @@
+.card {
+    justify-content:flex-start;
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid rgb(150, 208, 150);
+    background-color: aqua;
+}
+
+.words {
+    justify-content:baseline;
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid rgb(43, 58, 43);
+    background-color: aqua;
+}

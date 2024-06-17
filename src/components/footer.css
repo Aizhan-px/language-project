@@ -1,7 +1,11 @@
-.Footer {
-    margin-top: auto;
-    background-color: aquamarine;
-    border-radius: 1px solid green;
-    height: 1000px;
-    width: 500px;
-}
+ .footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: green;
+        color: rgb(228, 148, 148);
+        text-align: center;
+     }
+
+  
