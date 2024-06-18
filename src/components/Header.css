@@ -1,47 +1,19 @@
 
 .Header {
-        background: #fff;
-        border-bottom: 2px solid #e5e5e5;
-        position:flex;
-        top: 0;
-        width: 100%;
-        z-index: 210;
-        background-color: beige;
-    /* align-items: center;
-    display: flex;
-    height: 70px;
-    justify-content: space-between;
-    margin: 0 auto;
-    padding: 0 66px;
-    position: relative;
-    background-color: rgba(237, 163, 222, 0.723); */
-    
-    /* padding: 0;
-    height: auto;
-    display: grid;
+    background: #fff;
+    border-bottom: 2px solid #e5e5e5;
+    background-color: rgba(255, 166, 0, 0.734);
     grid-template-areas: 'logo nav';
-    align-items: center;
-    justify-items: center;
-    background-color: rgba(237, 163, 222, 0.723);
-    text-align: justify; */
-    
 }
 
 
-.Nav {
-    /* flex-direction: row;
-    height: 100%;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-}
-/*      */
-    grid-area:auto;
-    display: grid;
+.nav {
     grid-template-columns: repeat(4,auto);
-    color: #d2f872;
+    text-align: center;
+    color: #ffffff;
     align-items: center;
-    justify-items:flex-start; 
+    justify-items:flex-start;  
+  
 }
 
 .logoImg {
@@ -49,5 +21,6 @@
         height: 70px;
         width: 70px;
         cursor: pointer;
-    }
+        align-items: flex-start
+}
 

@@ -5,6 +5,8 @@ import Table from './components/Table';
 import Footer from './components/Footer';
 
 
+
+
 const words =[
   {
     id:1,
@@ -31,7 +33,6 @@ const words =[
     russian: 'Ананас',
   },
 
-
   {
     id:5,
     english:'lemon',
@@ -40,129 +41,129 @@ const words =[
   },
   {
     id:6,
-    english:'lemon',
-    transcription:'/ˈlɛmən/',
-    russian: 'Лимон',
+    english:'cool',
+    transcription:'/kuːl/',
+    russian: 'классный',
   },
   {
     id:7,
-    english:'lemon',
-    transcription:'/ˈlɛmən/',
-    russian: 'Лимон',
+    english:'nice',
+    transcription:'/naɪs/',
+    russian: 'Милый',
   },
   {
     id:8,
-    english:'lemon',
-    transcription:'/ˈlɛmən/',
-    russian: 'Лимон',
+    english:'funny',
+    transcription:'/ˈfʌn.i/',
+    russian: 'Забавный',
   },
   {
     id:9,
     english:'lemon',
     transcription:'/ˈlɛmən/',
-    russian: 'Лимон',
+    russian: 'Лим',
   },
   {
     id:10,
-    english:'lemon',
-    transcription:'/ˈlɛmən/',
-    russian: 'Лимон',
+    english:'smart',
+    transcription:'/smɑːrt/',
+    russian: 'Умный',
   },
   {
     id:11,
-    english:'lemon',
-    transcription:'/ˈlɛmən/',
-    russian: 'Лимон',
+    english:'beautiful',
+    transcription:'/ˈbjuːtɪfl/',
+    russian: 'красивый',
   },
   {
     id:12,
-    english:'lemon',
-    transcription:'/ˈlɛmən/',
-    russian: 'Лимон',
+    english:'handsome',
+    transcription:'/ˈhænsəm/',
+    russian: 'красивый',
   },
   {
     id:13,
-    english:'lemon',
-    transcription:'/ˈlɛmən/',
-    russian: 'Лимон',
+    english:'very',
+    transcription:'/ˈvɛri/',
+    russian: 'очень',
   },
   {
     id:14,
-    english:'lemon',
-    transcription:'/ˈlɛmən/',
-    russian: 'Лимон',
+    english:'so',
+    transcription:'/soʊ/',
+    russian: 'такой',
   },
   {
     id:15,
-    english:'lemon',
-    transcription:'/ˈlɛmən/',
-    russian: 'Лимон',
+    english:'adapt',
+    transcription:'/əˈdæpt/',
+    russian: 'настраивать',
   },
   {
     id:16,
-    english:'lemon',
-    transcription:'/ˈlɛmən/',
-    russian: 'Лимон',
+    english:'add to list',
+    transcription:'/æd tu lɪst/',
+    russian: 'добавлять в список',
   },
   {
     id:17,
-    english:'lemon',
-    transcription:'/ˈlɛmən/',
-    russian: 'Лимон',
+    english:'application',
+    transcription:'/æplɪˈkeɪʃnn/',
+    russian: 'приложение',
   },
   {
     id:18,
-    english:'lemon',
-    transcription:'/ˈlɛmən/',
-    russian: 'Лимон',
+    english:'archive',
+    transcription:'/ˈɑrˌkaɪv/',
+    russian: 'архивировать',
   },
   {
     id:19,
-    english:'lemon',
-    transcription:'/ˈlɛmən/',
-    russian: 'Лимон',
+    english:'attempt',
+    transcription:'/əˈtɛmpt/',
+    russian: 'попытка',
   },
   {
     id:20,
-    english:'lemon',
-    transcription:'/ˈlɛmən/',
-    russian: 'Лимон',
+    english:'authorization',
+    transcription:'/ˌɔːθərəˈzeɪʃn/',
+    russian: 'авторизация',
   },
   {
     id:21,
-    english:'lemon',
-    transcription:'/ˈlɛmən/',
-    russian: 'Лимон',
+    english:'automatically',
+    transcription:'/ˌɔtəˈmætɪkli/',
+    russian: 'автоматически',
   },
   {
     id:22,
-    english:'lemon',
-    transcription:'/ˈlɛmən/',
-    russian: 'Лимон',
+    english:'backup',
+    transcription:'/ˈbæˌkʌp/',
+    russian: 'резервная копия',
   },
   {
     id:23,
-    english:'lemon',
-    transcription:'/ˈlɛmən/',
-    russian: 'Лимон',
+    english:'binary',
+    transcription:'/ˈbaɪnəri/',
+    russian: 'двоичный',
   },
   {
     id:24,
-    english:'lemon',
-    transcription:'/ˈlɛmən/',
-    russian: 'Лимон',
+    english:'blowfish',
+    transcription:'/ˈbloʊfɪʃ/',
+    russian: 'блоуфиш (криптографический алгоритм)',
   },
   {
     id:25,
-    english:'lemon',
-    transcription:'/ˈlɛmən/',
-    russian: 'Лимон',
+    english:'compatible',
+    transcription:'/kəmˈpætəbə/',
+    russian: 'совместимый',
   },
   {
     id:26,
-    english:'lemon',
-    transcription:'/ˈlɛmən/',
-    russian: 'Лимон',
+    english:'lomponent',
+    transcription:'/ˈkəmˈpoʊnənt/',
+    russian: 'компонент',
   },
 ]
 
@@ -171,13 +172,7 @@ function App() {
   return (
     <div className="App">
      <Header/>
-     {
-      window.addEventListener("languagechange", () => {
-        console.log("languagechange event detected!");
-      })
-      // kak suda ego pri
-     }
-
+   
      {
       words.map((word)=>{
         return(
@@ -198,4 +193,5 @@ function App() {
 }
 
 export default App;
+
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Button(props) {
     return (
-        <button style={{'color':'white','background':'pink'}}>{props.text} </button>
+        <button style={{'color':'white','background':'orange'}}>{props.text} </button>
     )
     }
 
