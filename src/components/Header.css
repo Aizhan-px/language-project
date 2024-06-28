@@ -1,25 +1,29 @@
 
-.Header {
+.header {
     background: #fff;
     border-bottom: 2px solid #e5e5e5;
     background-color: rgba(255, 166, 0, 0.734);
-    grid-template-areas: 'logo nav';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
 
-.nav {
-    grid-template-columns: repeat(4,auto);
+.nav ul{
+    display: flex;
+    position: relative;
     text-align: center;
     color: #ffffff;
     align-items: center;
-    justify-items:flex-start;  
-  
+    gap: 100px;
+    
 }
+ 
+
 
 .logoImg {
         display:flex;
-        height: 70px;
-        width: 70px;
         cursor: pointer;
         align-items: flex-start
 }

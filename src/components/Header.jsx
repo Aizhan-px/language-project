@@ -1,24 +1,33 @@
 import React from 'react';
 import style from './Header.css';
-
+import {
+   BrowserRouter as Router,Routes,Route,Link} from "react-router-dom";
+ 
+ 
 
 
 
 export default function Header() {
 return (
-<header className='Header'>
-   <div class='logoImg'>
+<header className='header'>
+   <div className='logoImg'>
    <img src={require('../components/youTube.png')} classNmae='Logo' alt='logo'/>
    </div>
    
-   <nav clasNmae='Nav'>
-    <div>
-    <a href='/'>Home</a>
-    <a href='/'>Articles</a>
-    <a href='/'>About</a>
-    <button>Logout</button>
-    </div>
-   </nav>
+
+   <nav className='nav'>
+          <ul >
+            <li>
+              <Link to="/">Table</Link>
+            </li>
+            <li>
+              <Link to="/game">game</Link>
+            </li>
+            <li>
+              <Link to="/users">Card</Link>
+            </li>
+          </ul>
+        </nav>
 </header>
 )
 }

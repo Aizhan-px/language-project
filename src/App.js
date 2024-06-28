@@ -3,6 +3,10 @@ import Card from './components/Card';
 import Header from './components/Header';
 import Table from './components/Table';
 import Footer from './components/Footer';
+import Carusel from './components/Carusel';
+import NoMatch from './components/NoMatch';
+import {BrowserRouter as Router,Routes,Route,Link
+} from "react-router-dom";
 
 
 
@@ -168,11 +172,16 @@ const words =[
 ]
 
 
+
+
 function App() {
   return (
+    <Router>
     <div className="App">
      <Header/>
+   <div className='cardsArray'>
    
+  {/* dodelat component i dobavit v Route LINK */}
      {
       words.map((word)=>{
         return(
@@ -180,18 +189,27 @@ function App() {
           
         )}) 
       }
+  </div>
 
-      <Table wordsData={words}/>
-      
+      <Routes>
+          <Route path="/game" element={<Carusel wordsData={words}/>} />
+          <Route path="/Table" element={<Table wordsData={words}/>} />
+          <Route path="/Card" element={<Card wordsData={words}/>} /> 
+          <Route path="/*"  element={<NoMatch/>}/>
+    </Routes>
 
-
-
-     
      <Footer/>
      </div>
+     </Router>
+     
   );
 }
 
+
 export default App;
+
+
+
+
 
 

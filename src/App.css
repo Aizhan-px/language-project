@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color:rgba(255, 239, 213, 0.384);
 }
 
 .App-logo {
@@ -37,3 +38,9 @@
   }
 }
 
+.cardsArray{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  border: 1px solid #8cea51;
+}

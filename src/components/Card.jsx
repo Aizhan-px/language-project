@@ -12,7 +12,7 @@ function Card({word}) {
     }
 
     return (
-        <div>
+        <div className='separate-cards'>
         <p>{word.english}</p>
         <p>{word.transcription}</p>
         {isClicked ?

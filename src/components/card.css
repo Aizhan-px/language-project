@@ -10,3 +10,13 @@
     float: left;
     width: 180px;
   }
+
+  .separate-cards{
+  display: flex; 
+  align-items: center; 
+  background-color: #912121;
+  padding: 8px;
+  border: 1px solid;
+  }
+
+

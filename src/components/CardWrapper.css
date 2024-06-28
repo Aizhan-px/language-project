@@ -1,0 +1,11 @@
+
+.cardWrapper{
+    display: flex;
+    border-radius: 10px; 
+    gap:50px;
+}
+
+.quantityWords{
+    margin-top: auto;
+    
+}
