@@ -3,7 +3,8 @@
 function NoMatch() {
     return(
     <main>
-         <h1>404 not found!</h1>;
+         <h1>Whoops!</h1>;
+         <h3>404 Page not found!</h3>
     </main>
 )}
 

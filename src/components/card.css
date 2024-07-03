@@ -1,4 +1,4 @@
-.Card {
+.card {
     margin: 0 auto;
     display: flex;
     border: 1px solid rgb(150, 208, 150);
@@ -11,12 +11,11 @@
     width: 180px;
   }
 
-  .separate-cards{
+  .separate-cards {
   display: flex; 
   align-items: center; 
-  background-color: #912121;
   padding: 8px;
-  border: 1px solid;
+  border: 1px solid green;
   }
 
 

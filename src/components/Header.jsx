@@ -11,7 +11,7 @@ export default function Header() {
 return (
 <header className='header'>
    <div className='logoImg'>
-   <img src={require('../components/youTube.png')} classNmae='Logo' alt='logo'/>
+   <img src={require('./panda_logo.png')} classNmae='Logo' alt='logo'/>
    </div>
    
 

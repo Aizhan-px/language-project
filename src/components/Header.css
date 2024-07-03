@@ -17,14 +17,18 @@
     color: #ffffff;
     align-items: center;
     gap: 100px;
+    text-decoration: none;
     
 }
  
 
 
 .logoImg {
-        display:flex;
+        display:block;
         cursor: pointer;
-        align-items: flex-start
+        align-items: flex-start;
+        height: 50px;
+        width: 50px;
+
 }
 

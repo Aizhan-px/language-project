@@ -7,7 +7,7 @@ import Carusel from './components/Carusel';
 import NoMatch from './components/NoMatch';
 import {BrowserRouter as Router,Routes,Route,Link
 } from "react-router-dom";
-
+import WordElements from './components/WordElements';
 
 
 
@@ -174,6 +174,7 @@ const words =[
 
 
 
+
 function App() {
   return (
     <Router>
@@ -181,14 +182,8 @@ function App() {
      <Header/>
    <div className='cardsArray'>
    
-  {/* dodelat component i dobavit v Route LINK */}
-     {
-      words.map((word)=>{
-        return(
-          <Card word={word}/>
-          
-        )}) 
-      }
+<WordElements words={words}/>
+ 
   </div>
 
       <Routes>

@@ -18,7 +18,7 @@ function Card({word}) {
         {isClicked ?
     <p>{word.russian}</p>
      :
-     <button onClick={handleClick} style={{color:'white','background':"pink"}}>translation</button>
+     <button onClick={handleClick} style={{color:'black','background':"pink",'border':"1px solid gray",'border-radius': "45%" }}>translation</button>
         }
         </div>
     )
