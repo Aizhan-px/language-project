@@ -2,10 +2,11 @@
 .header {
     background: #fff;
     border-bottom: 2px solid #e5e5e5;
-    background-color: rgba(255, 166, 0, 0.734);
+    background-color:#2b3647;;
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
     
 }
 
@@ -18,15 +19,20 @@
     align-items: center;
     gap: 100px;
     text-decoration: none;
-    
+}
+
+.nav li{
+    text-decoration: none;
 }
  
-
+.nav a {
+    color:#fff;
+    text-decoration: none;
+}
 
 .logoImg {
-        display:block;
-        cursor: pointer;
-        align-items: flex-start;
+    margin: 20px 0 20px 20px;
+        display:flex;
         height: 50px;
         width: 50px;
 

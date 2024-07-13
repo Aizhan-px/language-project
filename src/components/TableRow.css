@@ -3,6 +3,14 @@
     border-collapse:collapse;
     box-sizing: border-box;
     text-indent: initial;
-    border-spacing: 3px;
+    border-spacing: 10px;
     border-color: gray;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+}
+
+
+
+.errorBorder {
+    border: 2px solid red;
+
 }

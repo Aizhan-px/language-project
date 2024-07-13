@@ -180,16 +180,12 @@ function App() {
     <Router>
     <div className="App">
      <Header/>
-   <div className='cardsArray'>
    
-<WordElements words={words}/>
- 
-  </div>
 
       <Routes>
           <Route path="/game" element={<Carusel wordsData={words}/>} />
-          <Route path="/Table" element={<Table wordsData={words}/>} />
-          <Route path="/Card" element={<Card wordsData={words}/>} /> 
+          <Route path="/" element={<Table wordsData={words}/>} />
+          <Route path="/cards" element={<WordElements words={words}/>} /> 
           <Route path="/*"  element={<NoMatch/>}/>
     </Routes>
 

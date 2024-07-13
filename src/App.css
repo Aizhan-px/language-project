@@ -38,9 +38,4 @@
   }
 }
 
-.cardsArray{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-  border: 1px solid #d3d7d0;
-}
+

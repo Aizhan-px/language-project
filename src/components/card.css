@@ -1,7 +1,7 @@
 .card {
     margin: 0 auto;
     display: flex;
-    border: 1px solid rgb(150, 208, 150);
+   
 }
 
 .words{
@@ -13,9 +13,17 @@
 
   .separate-cards {
   display: flex; 
+  width: 140px;
+  flex-direction: column;
   align-items: center; 
-  padding: 8px;
-  border: 1px solid green;
+  padding: 10px;
+  border: 1px solid rgb(121, 125, 121);
+ background-color:rgba(173, 216, 230, 0.691);
+  border-radius: 16px;
+  box-shadow: 0 2px 0 rgb(121, 125, 121);
+  box-sizing: border-box;
+  cursor: pointer;
+
   }
 
 
