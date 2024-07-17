@@ -18,7 +18,7 @@
   align-items: center; 
   padding: 10px;
   border: 1px solid rgb(121, 125, 121);
- background-color:rgba(173, 216, 230, 0.691);
+  background-color: rgb(176 230 173 / 41%);
   border-radius: 16px;
   box-shadow: 0 2px 0 rgb(121, 125, 121);
   box-sizing: border-box;

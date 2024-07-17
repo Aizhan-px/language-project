@@ -26,7 +26,7 @@ function handleChange(e) {
     })
     setErrors({
         ...errors,
-        [name]:value.trim()===""? 'pole ne mojet but pustim':false,
+        [name]:value.trim()===""? ' Поле не может быть пустым':false,
     })
 } 
 
@@ -48,12 +48,12 @@ const  isButtonDisaibled=Object.values(errors).some((element)=> element)
         {
             isPressed?(
                 <>
-                <td><input  type="text" name='english' onChange={handleChange} value={value.english} className={errors.english ? 'errorBorder' : ''}/></td> //dobavit inline stili
-                <td><input type='text' name='transcription' onChange={handleChange} value={value.transcription} className={errors.transcription ? 'errorBorder' : ''}/></td>
-                <td><input type='text' name='russian' onChange={handleChange} value={value.russian} className={errors.russian ? 'errorBorder' : ''}/></td>
+                <td><input  type="text" name='english' onChange={handleChange}     value={value.english} className={errors.english ?  'border":"1px solid red':''}/> </td>
+                <td><input type='text' name='transcription' onChange={handleChange} value={value.transcription} className={errors.transcription ? 'errorBorder' : ''}/> </td>
+                <td><input type='text' name='russian' onChange={handleChange}      value={value.russian} className={errors.russian ? 'errorBorder' : ''}/></td>
                 </>
             ): (
-               
+            
                 <>
                 <td>{value.english}</td>
                 <td>{value.transcription}</td>

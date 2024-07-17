@@ -2,12 +2,12 @@
 .header {
     background: #fff;
     border-bottom: 2px solid #e5e5e5;
-    background-color:#2b3647;;
+    background-color:#2b3647;
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
-    
+    justify-content: flex-start;
+    text-decoration: none;
 }
 
 
@@ -23,6 +23,7 @@
 
 .nav li{
     text-decoration: none;
+    color:#2b3647;
 }
  
 .nav a {

@@ -5,8 +5,8 @@ import TableRow from './TableRow'
 function Table({wordsData}) {
     console.log(wordsData)
     return (
-  <table border="1">
-    <thead>
+  <table border>
+    <thead >
     <tr>
      <th>id</th>
      <th>english</th>  
