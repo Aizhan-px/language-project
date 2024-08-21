@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import TableRow from './TableRow'
+import wordStore from './store/WordStore';
+import { observer } from 'mobx-react';
 
+const Table = ()=> {
+console.log(wordStore);
+useEffect(()=>{
+  wordStore.loadData()
 
-function Table({wordsData}) {
-    console.log(wordsData)
+},[])
     return (
   <table border>
     <thead >
@@ -17,9 +22,10 @@ function Table({wordsData}) {
     </thead>
     <tbody>
         {
-            wordsData.map((word)=>{
+            wordStore.words.map((word)=>{
                 return(
                     <TableRow wordData={word}/>
+
                 )
             })
         }
@@ -28,4 +34,4 @@ function Table({wordsData}) {
     )
     }
 
-export default Table;
+export default observer (Table);
